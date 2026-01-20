@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background:#FFF9F5 ;
+}
+
+header {
+    background-color: #c0392b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: white;
+}
+
+.hero-text {
+    width: 45%;
+    position: relative;
+    left: 10%;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.hero-img img {
+    width: 400px;
+    border-radius: 8px;
+    position: relative;
+    right: 20%;
+}
+
+.menu {
+    background-color: white;
+    padding: 50px 60px;
+    text-align: center;
+}
+
+.menu h2 {
+    color: #c0392b;
+    margin-bottom: 30px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-item {
+    background: #FFF9F5;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.menu-item img {
+    width: 100%;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+}
+
+.price {
+    color: #c0392b;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+footer p {
+    font-size: smaller;
+    font-weight: 50;
+}
